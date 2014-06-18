@@ -1,4 +1,5 @@
 <?php
+	
 	$page_title = 'Register';
 	include('../includes/header.html');
 	
@@ -50,7 +51,6 @@
 				echo " - $message<br />\n";
 			}
 			echo '</p><p>Please try again</p><p><br /></p>';
-			
 		}
 		mysqli_close($dbc);
 	}
